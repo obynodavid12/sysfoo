@@ -20,7 +20,6 @@ pipeline{
       }
     }
 
-
     stage('package'){
       steps{
         sh 'package -DskipTests'
